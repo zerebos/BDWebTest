@@ -83,13 +83,17 @@
     border-radius: 12px;
 }
 
-/* Example: Change font family 
-   Note: Using universal selector (*) can impact performance and accessibility.
-   In production, target specific elements instead:
-   .chat-*, .sidebar-*, .title-*, etc.
+/* Example: Change font family for specific Discord elements
+   Using targeted selectors instead of universal selector for better performance.
+   You can add more specific selectors as needed for your theme.
 */
-* {
-    font-family: var(--example-font) !important;
+.chat-2ZfjoI,
+.sidebar-1tnWFu,
+.title-31SJ6t,
+.container-2cd8Mz,
+.content-1jQy2l,
+.header-3xB4vB {
+    font-family: var(--example-font);
 }
 
 /* Example: Customize scrollbars */
