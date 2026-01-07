@@ -15,6 +15,7 @@ module.exports = class ExamplePlugin {
     }
 
     // Called when the plugin is loaded
+    // Note: this is rarely used
     load() {
         console.log("ExamplePlugin loaded!");
     }
@@ -25,7 +26,7 @@ module.exports = class ExamplePlugin {
         this.initialized = true;
         
         // Example: Show a toast notification
-        BdApi.showToast("ExamplePlugin has been enabled!", {type: "success"});
+        BdApi.UI.showToast("ExamplePlugin has been enabled!", {type: "success"});
     }
 
     // Called when the plugin is stopped
@@ -34,6 +35,6 @@ module.exports = class ExamplePlugin {
         this.initialized = false;
         
         // Example: Show a toast notification
-        BdApi.showToast("ExamplePlugin has been disabled!", {type: "info"});
+        BdApi.UI.showToast("ExamplePlugin has been disabled!", {type: "info"});
     }
 }
