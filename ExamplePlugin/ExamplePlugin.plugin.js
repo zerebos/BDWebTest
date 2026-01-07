@@ -36,9 +36,4 @@ module.exports = class ExamplePlugin {
         // Example: Show a toast notification
         BdApi.showToast("ExamplePlugin has been disabled!", {type: "info"});
     }
-
-    // Returns the plugin's name
-    getName() {
-        return "ExamplePlugin";
-    }
 }
