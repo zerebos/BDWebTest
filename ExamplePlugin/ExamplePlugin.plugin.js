@@ -7,7 +7,6 @@
  * @authorLink https://github.com/yourusername
  * @website https://github.com/yourusername/ExamplePlugin
  * @source https://github.com/yourusername/ExamplePlugin/blob/main/ExamplePlugin.plugin.js
- * @updateUrl https://raw.githubusercontent.com/yourusername/ExamplePlugin/main/ExamplePlugin.plugin.js
  */
 
 module.exports = class ExamplePlugin {
