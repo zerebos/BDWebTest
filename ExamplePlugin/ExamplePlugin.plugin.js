@@ -51,9 +51,4 @@ module.exports = class ExamplePlugin {
     getVersion() {
         return "1.0.0";
     }
-
-    // Returns the plugin's author
-    getAuthor() {
-        return "YourName";
-    }
 }
