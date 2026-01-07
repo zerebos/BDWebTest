@@ -41,9 +41,4 @@ module.exports = class ExamplePlugin {
     getName() {
         return "ExamplePlugin";
     }
-
-    // Returns the plugin's description
-    getDescription() {
-        return "A basic example plugin to demonstrate BetterDiscord plugin structure and metadata format.";
-    }
 }
