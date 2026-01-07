@@ -46,9 +46,4 @@ module.exports = class ExamplePlugin {
     getDescription() {
         return "A basic example plugin to demonstrate BetterDiscord plugin structure and metadata format.";
     }
-
-    // Returns the plugin's version
-    getVersion() {
-        return "1.0.0";
-    }
 }
