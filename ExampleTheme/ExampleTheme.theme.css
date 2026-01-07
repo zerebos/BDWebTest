@@ -1,0 +1,153 @@
+/**
+ * @name ExampleTheme
+ * @author YourName
+ * @description A basic example theme to demonstrate BetterDiscord theme structure and metadata format.
+ * @version 1.0.0
+ * @authorId 123456789012345678
+ * @authorLink https://github.com/yourusername
+ * @website https://github.com/yourusername/ExampleTheme
+ * @source https://github.com/yourusername/ExampleTheme/blob/main/ExampleTheme.theme.css
+ * @updateUrl https://raw.githubusercontent.com/yourusername/ExampleTheme/main/ExampleTheme.theme.css
+ */
+
+/* Import Google Fonts - Example */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Root Variables - Customize your theme colors here */
+:root {
+    /* Primary Colors */
+    --example-primary-color: #7289da;
+    --example-secondary-color: #424549;
+    --example-background-color: #36393f;
+    --example-accent-color: #7289da;
+    
+    /* Text Colors */
+    --example-text-primary: #ffffff;
+    --example-text-secondary: #b9bbbe;
+    --example-text-muted: #72767d;
+    
+    /* Custom Font */
+    --example-font: 'Roboto', sans-serif;
+}
+
+/* Example: Change the main background color */
+.theme-dark {
+    --background-primary: var(--example-background-color);
+    --background-secondary: #2f3136;
+    --background-tertiary: #202225;
+}
+
+/* Example: Customize the chat input area */
+.channelTextArea-1FufC0 {
+    background-color: var(--example-secondary-color);
+    border-radius: 8px;
+}
+
+/* Example: Style user messages */
+.message-2CShn3 {
+    border-left: 3px solid transparent;
+    padding-left: 8px;
+}
+
+.message-2CShn3:hover {
+    border-left-color: var(--example-accent-color);
+    background-color: rgba(114, 137, 218, 0.1);
+}
+
+/* Example: Customize buttons */
+.button-f2h6uQ {
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.button-f2h6uQ.lookFilled-yCfaCM {
+    background-color: var(--example-primary-color);
+}
+
+.button-f2h6uQ.lookFilled-yCfaCM:hover {
+    background-color: #677bc4;
+}
+
+/* Example: Customize server list */
+.wrapper-3kah-n {
+    border-radius: 50%;
+    transition: border-radius 0.3s ease;
+}
+
+.wrapper-3kah-n:hover {
+    border-radius: 30%;
+}
+
+/* Example: Customize user profile modal */
+.userPopout-2j1gM4 {
+    border-radius: 12px;
+}
+
+/* Example: Change font family */
+* {
+    font-family: var(--example-font) !important;
+}
+
+/* Example: Customize scrollbars */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--example-background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--example-secondary-color);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--example-primary-color);
+}
+
+/* Example: Add custom animations */
+@keyframes slideIn {
+    from {
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.message-2CShn3 {
+    animation: slideIn 0.2s ease;
+}
+
+/* Example: Customize status indicators */
+.status-12DNBM {
+    border-radius: 50%;
+    border: 3px solid var(--example-background-color);
+}
+
+/* Example: Style mentions */
+.mention {
+    background-color: rgba(114, 137, 218, 0.3);
+    border-radius: 4px;
+    padding: 0 4px;
+    color: var(--example-primary-color);
+}
+
+.mention:hover {
+    background-color: rgba(114, 137, 218, 0.5);
+}
+
+/* Example: Customize code blocks */
+code {
+    background-color: var(--example-secondary-color);
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+pre code {
+    border-left: 4px solid var(--example-primary-color);
+    padding-left: 8px;
+}
