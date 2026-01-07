@@ -83,7 +83,11 @@
     border-radius: 12px;
 }
 
-/* Example: Change font family */
+/* Example: Change font family 
+   Note: Using universal selector (*) can impact performance and accessibility.
+   In production, target specific elements instead:
+   .chat-*, .sidebar-*, .title-*, etc.
+*/
 * {
     font-family: var(--example-font) !important;
 }
@@ -106,7 +110,10 @@
     background: var(--example-primary-color);
 }
 
-/* Example: Add custom animations */
+/* Example: Add custom animations 
+   Note: Animating all messages can impact performance on busy channels.
+   In production, consider adding a toggle class or using more specific selectors.
+*/
 @keyframes slideIn {
     from {
         transform: translateX(-10px);
