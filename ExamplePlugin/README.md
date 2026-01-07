@@ -21,7 +21,6 @@ BetterDiscord plugins require a JSDoc-style comment block at the top of the file
 - **@authorLink**: Link to author's profile or website (optional)
 - **@website**: Plugin's website or repository (optional)
 - **@source**: Direct link to the plugin's source code (optional)
-- **@updateUrl**: URL for automatic updates (optional)
 
 ## Plugin Structure
 
