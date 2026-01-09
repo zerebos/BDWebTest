@@ -35,6 +35,6 @@ module.exports = class ExamplePlugin {
         this.initialized = false;
         
         // Example: Show a toast notification
-        BdApi.UI.showToast("ExamplePlugin has been disabled!", {type: "info"});
+        BdApi.UI.showToast("ExamplePlugin has been disabled!", {type: "error"});
     }
 }
