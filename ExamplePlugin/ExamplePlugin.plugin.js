@@ -27,6 +27,7 @@ module.exports = class ExamplePlugin {
         
         // Example: Show a toast notification
         BdApi.UI.showToast("ExamplePlugin has been enabled!", {type: "success"});
+        BdApi.UI.alert("Enabled", "Plugin has been enabled!");
     }
 
     // Called when the plugin is stopped
