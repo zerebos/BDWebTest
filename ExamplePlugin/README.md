@@ -26,13 +26,6 @@ BetterDiscord plugins require a JSDoc-style comment block at the top of the file
 
 A BetterDiscord plugin is a JavaScript class that exports the following methods:
 
-### Required Methods
-
-- `getName()` - Returns the plugin name
-- `getDescription()` - Returns the plugin description
-- `getVersion()` - Returns the plugin version
-- `getAuthor()` - Returns the plugin author
-
 ### Lifecycle Methods
 
 - `load()` - Called when the plugin is loaded (before start)
