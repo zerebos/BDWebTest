@@ -12,6 +12,7 @@
 module.exports = class ExamplePlugin {
     constructor() {
         this.initialized = false;
+        this.baseData = {};
     }
 
     // Called when the plugin is loaded
