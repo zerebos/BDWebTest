@@ -45,8 +45,7 @@ A BetterDiscord plugin is a JavaScript class that exports the following methods:
    - Windows: `%AppData%\BetterDiscord\plugins`
    - macOS: `~/Library/Application Support/BetterDiscord/plugins`
    - Linux: `~/.config/BetterDiscord/plugins`
-3. Restart Discord or reload plugins (Ctrl+R)
-4. Enable the plugin in User Settings > Plugins
+3. Enable the plugin in User Settings > Plugins
 
 ## Usage
 
