@@ -10,9 +10,9 @@
  */
 
 module.exports = class ExamplePlugin {
-    constructor() {
+    constructor(meta) {
         this.initialized = false;
-        this.baseData = {};
+        this.meta = meta;
     }
 
     // Called when the plugin is loaded
