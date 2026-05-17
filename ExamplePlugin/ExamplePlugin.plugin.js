@@ -26,9 +26,6 @@ module.exports = class ExamplePlugin {
         console.log("ExamplePlugin started!");
         this.initialized = true;
         
-        // Example: Show a toast notification
-        BdApi.UI.showToast("ExamplePlugin has been enabled!", {type: "success"});
-        BdApi.UI.alert("Enabled", "Plugin has been enabled!");
     }
 
     // Called when the plugin is stopped
@@ -38,5 +35,8 @@ module.exports = class ExamplePlugin {
         
         // Example: Show a toast notification
         BdApi.UI.showToast("ExamplePlugin has been disabled!", {type: "error"});
+        // Example: Show a toast notification
+        BdApi.UI.showToast("ExamplePlugin has been enabled!", {type: "success"});
+        BdApi.UI.alert("Enabled", "Plugin has been enabled!");
     }
 }
